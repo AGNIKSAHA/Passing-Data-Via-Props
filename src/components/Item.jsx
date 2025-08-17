@@ -5,6 +5,12 @@ const Item = (props) => {
   return (
     <li className={`${styles["items"]} list-group-item items`}>
       <span>{foodItems}</span>
+      <button
+        className={`${styles.button} btn btn-warning`}
+        onClick={() => console.log(`Buy ${foodItems}`)}
+      >
+        buy
+      </button>
     </li>
   );
 };

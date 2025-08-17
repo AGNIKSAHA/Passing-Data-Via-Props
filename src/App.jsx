@@ -15,9 +15,9 @@ function App() {
         <ErrorMessage items={foodItems}></ErrorMessage>
         <FoodItems items={foodItems}></FoodItems>
       </Container>
-      <Container>
+      {/* <Container>
         <p>Above is the of healthy foods that your health and well being.</p>
-      </Container>
+      </Container> */}
     </>
   );
 }
