@@ -1,0 +1,7 @@
+.items {
+  background-color: aqua;
+}
+.items span {
+  font-weight: 500;
+  color: blueviolet;
+}
