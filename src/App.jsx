@@ -14,7 +14,9 @@ function App() {
       <Container>
         <h1 className="foodHeading">Healthy Food</h1>
         <ErrorMessage items={foodItems}></ErrorMessage>
-        <FoodInput></FoodInput>
+        <FoodInput
+          handleOnChange={() => console.log(event.target.value)}
+        ></FoodInput>
         <FoodItems items={foodItems}></FoodItems>
       </Container>
       {/* <Container>
